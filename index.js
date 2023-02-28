@@ -1,10 +1,24 @@
-function add (num1, num2, ...num3) {
-    let sum = num1 + num2;
-    return sum;
+const numberButtons = document.querySelectorAll("[data-numbers]");
+const operatorButtons = document.querySelectorAll("[data-operator]");
+const allClearButton = document.querySelector("[data-all-clear]");
+const deleteButton = document.querySelector("[data-delete]");
+const decimalButton = document.querySelector("[data-decimal]");
+const previousOperandDisplay = document.querySelector("[data-previous-operand]");
+const currentOperandDisplay = document.querySelector("[data-current-operand]");
+
+
+function clearAll() {
+
 }
 
-function subtract (num1, num2, ...num3) {
-    let sum = num1 - num2;
-    return sum;
+function deleteNumber() {
+
 }
 
+function operate() {
+
+}
+
+function appendNumber() {
+
+}
