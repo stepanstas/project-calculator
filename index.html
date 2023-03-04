@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
 </head>
 <body>
     <div class="container-calculator">
         <div class="calculator">
             <header class="calculator-display">
-                <div data-previous-operand>Lo</div>
-                <div data-current-operand>Lo</div>
+                <div class="previous-display" data-previous-operand></div>
+                <div class="current-display" data-current-operand></div>
             </header>
             <main class="calculator-buttons">
                 <button id="all-clear" data-all-clear>AC</button>
@@ -26,7 +27,7 @@
                 <button data-number>6</button>
                 <button data-number>5</button>
                 <button data-number>4</button>
-                <button data-operator>&times;</button>
+                <button data-operator>*</button>
                 <button data-number>3</button>
                 <button data-number>2</button>
                 <button data-number>1</button>
@@ -35,7 +36,7 @@
                 <button data-decimal>.</button>
                 <button id="equals" data-equals>=</button>
             </main>
-            <footer>Created by Stepan S</footer>
+            <footer>Created by Štěpán Š</footer>
         </div>
 
 
