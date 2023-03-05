@@ -126,7 +126,6 @@ body {
 footer {
     text-align: center;
     padding: 1rem;
-    font-weight: bold;
     color: var(--secondary-text-color);
 }
 
